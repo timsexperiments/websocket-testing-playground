@@ -1,0 +1,25 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node esbuild.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^6.5.0",
+    "@fastify/websocket": "^7.0.1",
+    "fastify": "^4.7.0"
+  },
+  "devDependencies": {
+    "@es-exec/esbuild-plugin-serve": "^0.0.4",
+    "@types/node": "^18.8.0",
+    "@types/ws": "^8.5.3",
+    "esbuild": "^0.15.10",
+    "typescript": "^4.8.4"
+  },
+  "type": "module"
+}

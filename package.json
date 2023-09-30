@@ -1,0 +1,13 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gin": "go run gin/main.go",
+    "fastify": "cd fastify && pnpm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
